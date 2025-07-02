@@ -1,0 +1,20 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "codigo de estudos de node js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc --watch",
+    "start": "node dist/tipos.js",
+    "build": "tsc"
+  },
+  "author": "Lucas Joel",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "chalk": "^5.4.1",
+    "nodemon": "^3.1.10"
+  }
+}

@@ -1,0 +1,29 @@
+o que é typescript
+typescript é um superset do java script criado pela microsoft.
+ele adiciona tipagem estatica e recursos avançados no desenvolvimento de aplicações grandes e complexos.
+
+podemos chamar typescript de linguagem de programação uma vez que utiliza boa parte da sintaxe de javascript
+adicionando a tipagem. porém o motor V8 do javascript não reconhece
+narativamente o typescript. Para isso, precisamos fazer o processo de transpilação.
+
+mas o que é transpilação?
+é o processo onde o código de arquivos .ts é reescrito Para assim poder ser execultado pelo motor V8
+
+Vantagens de usar ts
+1. tipagem estática - ajuda a capturar erros durante o desenvolvimento, reduz bugs causados por tipagem
+incorreta ou inesperada
+2. melhor autocompletar - IDE'S como VSCODE oferecem sugestões mais precisas com base nos tipos definidos
+3. mais facilidade para refatoração - alteração em nomes de variáveis, funções ou classes são mais seguras e consistentes
+4. melhor escalabilidade - ideal para projetos grandes ou com muitas pessoas na equipe
+5. melhor documentação - os tipos servem como documentação automática
+6. comunidades e ecossistema em crescimento - Muitos frameworks modernos (React, Angular) oferecem suporte nativo ou exelente
+integração ao ts
+
+Desvantagens de usar ts
+1. curva de aprendizado - para quem vem de js pode parecer mais complicado
+2. mais código para escrever - o código é mais verboso usando ts
+3. tempo de compilação - o código necessita ser compilado para rodar
+4. configuração inicial - requer instalação e configuração de pacotes para uso de ts
+5. integração com bibliotecas JS algumas bibliotecas não possuem tipos disponíveis ou tem tipos incompletos
+6.falso sentimento de segurança - a tipagem do ts é apenas em ambiente de desenvolvimentos. No ambiente de produção
+ou execução os tipos desaparecem e erros aindas podem ocorrer caso não se tenha o devido cuidado na validação dos dados.
